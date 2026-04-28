@@ -5,30 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freelancer</title>
 
-    <link rel="stylesheet" href="styles/styles.css">
-    
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/components/navbar.css">
+    <link rel="stylesheet" href="./styles/components/hero.css">
+    <link rel="stylesheet" href="./styles/components/card.css">
+    <link rel="stylesheet" href="./styles/components/contact-form.css">
+
+    <script type="module">
+        import {loadCard} from "./js/components/card.js";
+        loadCard(".services__card-container"); //Sin IDS muestra todas las cards
+    </script>
+
 </head>
 <body>
-    <!-- Header  -->
-     <header>
-    <h1 class="navbar__title">
-        Angie Sofia
-        <span class="navbar__subtitle">Rico Rico</span>
-    </h1>
-    </header><!--Header -->
-    
+    <!-- Header -->
+    <header>
+        <h1 class="navbar__title">
+            Angie Sofia
+            <span class="navbar__subtitle">Rico Programar</span>
+        </h1>
+    </header><!--Header-->
+   
     <!-- Navbar -->
-    <nav class="navbar">
-        <ul class="navbar__list">
-            <li class="navbar__item"><a href="/index.html" 
-                class="navbar__link">Inicio</a></li>
-            <li class="navbar__item"><a href="/views/pages/courses.html"
-                 class="navbar__link">Cursos</a></li>
-            <li class="navbar__item"><a href="/views/pages/contact.html"
-                 class="navbar__link">Contacto</a></li>
-            <li class="navbar__item"><a href="/views/pages/about.html"
-                 class="navbar__link">Sobre mi</a></li>
-        </ul>
-    </nav><!-- Navbar -->
+    <div class="navbar-container"></div>
+    <div class="hero-container"></div>
+    <div class="card-container"></div>
+    <div class="form-container"></div>
+
+    <main class="services">
+ <h2 class="services__tittle">Mis servicios</h2>
+ <div class="services__card-container"></div>
+ <h2 class="services__card-tittle">Contacto</h2>
+ <div class="services__form-container"></div>
+
+
+    </main>
+<foother>
+    <p class="foother" @2026 by rico programar todos los derechos reservados></p>
+</foother>
+    
+    
+    <script src="./js/components/navbar.js"></script>
+    <script src="./js/components/hero.js"></script>
+    <script src="./js/components/contact-form.js"></script>
+
 </body>
 </html>

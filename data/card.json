@@ -1,0 +1,30 @@
+[
+    {
+        "id": "diseño web",
+        "title": "Diseño web",
+        "icon1": "./assets/icons/icons1.svg",
+        "icon2": "./assets/icons/icons2.svg",
+        "description": "Volvemos tus ideas realidad con el mejor diseno y desarrollo web."
+
+
+    },
+
+ {
+        "id": "desktopApp",
+        "title": "Aplicaciones de escritorio",
+        "icon1": "./assets/icons/icons1.svg",
+        "icon2": "./assets/icons/icons2.svg",
+        "description": "Creamos aplicaciones de escritorio adaptadas a las necesidades de tu empresa."
+
+
+    }, {
+        "id": "iotSystem",
+        "title": "Sistemas IoT",
+        "icon1": "./assets/icons/icons1.svg",
+        "icon2": "./assets/icons/icons2.svg",
+        "description": "Construimos soluciones IoT para conectar y automatizar tus dispositivos."
+
+
+    }
+
+    ]

@@ -1,0 +1,91 @@
+:root {
+    /* Primary Color */
+    --primary-950: #4db100;
+    --primary-900: #55b40c;
+    --primary-800: #67bc26;
+    --primary-700: #79c43f;
+    --primary-600: #8bcc59;
+    --primary-500: #9dd472;
+    --primary-400: #aedb8c;
+    --primary-300: #c0e3a5;
+    --primary-200: #d2ebbf;
+    --primary-100: #eaf3d8;
+    --primary-50: #f6fbf2;
+
+    /* Secondary Color */
+    --secondary-950: #fed638;
+    --secondary-900: #fed841;
+    --secondary-800: #fedc55;
+    --secondary-700: #fee069;
+    --secondary-600: #fee47d;
+    --secondary-500: #fee891;
+    --secondary-400: #feeca5;
+    --secondary-300: #fef0b9;
+    --secondary-200: #fef4cd;
+    --secondary-100: #fef8e1;
+    --secondary-50: #fefcf5;
+
+    /* Tertiary Color */
+    --terciary-950: #50e5f9;
+    --terciary-900: #58e6f9;
+    --terciary-800: #6ae8f9;
+    --terciary-700: #7bebfa;
+    --terciary-600: #8deefb;
+    --terciary-500: #9ef0fb;
+    --terciary-400: #b0f3fc;
+    --terciary-300: #c1f5fc;
+    --terciary-200: #d3f8fd;
+    --terciary-100: #e4fbfe;
+    --terciary-50: #f6fdfe;
+
+    /* Basic Color */
+    --white: #fff;
+    --black: #000;
+    --gray-950: #101010;
+    --gray-900: #262626;
+    --gray-800: #3b3b3b;
+    --gray-700: #515151;
+    --gray-600: #676767;
+    --gray-500: #7d7d7d;
+    --gray-400: #929292;
+    --gray-300: #a8a8a8;
+    --gray-200: #bebebe;
+    --gray-100: #d4d4d4;
+    --gray-50: #e9e9e9;
+
+    /* Font Family */
+    --main-font: Helvetica, Arial, sans-serif;
+
+    /* Font Size */
+    --fs-xxxxl: 9.0rem; /* Ultra grande */
+    --fs-xxxl: 6.4rem; /* Super grande */
+    --fs-xxl: 4.8rem; /* Extra grande */
+    --fs-xl: 4.0rem; /* Muy Grande */
+    --fs-lg: 3.2rem; /* h1 */
+    --fs-md: 2.4rem; /* Titulo */
+    --fs-sm: 2.0rem; /* Subtitulo */
+    --fs-xs: 1.6rem; /* Base */
+    --fs-xxs: 1.4rem; /* Extra extra pequeño */
+    --fs-xxxs: 1.2rem; /* Texto de apoyo */
+    --fs-xxxxs: 0.8rem; /* Label */
+
+}
+
+/* Globals */
+html {
+    
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: var(--main-font);
+    margin: 0;
+}
+
+/* Firt mobile */
+
